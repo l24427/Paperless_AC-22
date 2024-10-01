@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Um novo conceito de QI">
+    <title>Quadro Interativo AC-22</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<link rel="icon" href="R.ico" type="image/x-icon">
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="modal-buttons">
+            <a href="https://www.etq.kcc.com:443/RelianceProd/reliance?ETQ$CMD=CMD_OPEN_ATTACHMENT_LAST_REV&ETQ$FILE_NAME=An%C3%A1lise+de+Risco+-+Operador+de+Produ%C3%A7%C3%A3o+I+de+Feminine+Care.pdf&ETQ$APPLICATION_ID=7&ETQ$FORM_ID=37&ETQ$KEY_VALUE=907465&ETQ$SOURCE_FIELD_ID=22423&ETQ$ORIGINAL_DOC_ID=194568"  target="_blank">
+                <button class="modal-button">Operadores I</button>
+            </a>
+            <a href="https://www.etq.kcc.com:443/RelianceProd/reliance?ETQ$CMD=CMD_OPEN_ATTACHMENT_LAST_REV&ETQ$FILE_NAME=JA-07854+An%C3%A1lise+de+Risco+-+Operador+de+Produ%C3%A7%C3%A3o+II+de+Feminine+Care.PDF&ETQ$APPLICATION_ID=7&ETQ$FORM_ID=37&ETQ$KEY_VALUE=547740&ETQ$SOURCE_FIELD_ID=22423&ETQ$ORIGINAL_DOC_ID=194592" target="_blank">
+                <button class="modal-button">Operadores II</button>
+            </a>
+            <a href="https://www.etq.kcc.com:443/RelianceProd/reliance?ETQ$CMD=CMD_OPEN_ATTACHMENT_LAST_REV&ETQ$FILE_NAME=An%C3%A1lise+de+Risco+Operador+de+Produ%C3%A7%C3%A3o+III+de+Feminine+Care.PDF&ETQ$APPLICATION_ID=7&ETQ$FORM_ID=37&ETQ$KEY_VALUE=579354&ETQ$SOURCE_FIELD_ID=22423&ETQ$ORIGINAL_DOC_ID=194621" target="_blank">
+                <button class="modal-button">Operadores III</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+    function openModal() {
+        document.getElementById("modal").style.display = "block";
+    }
+
+    function closeModal() {
+        document.getElementById("modal").style.display = "none";
+    }
+
+    // Adicione um evento ao botão "PRFA Operadores"
+    document.querySelector('a[href=""]').addEventListener('click', function(event) {
+        event.preventDefault(); // Evita que o link siga o href
+        openModal(); // Abre o modal
+    });
+
+    // Fecha o modal se o usuário clicar fora dele
+    window.onclick = function(event) {
+        var modal = document.getElementById("modal");
+        if (event.target == modal) {
+            closeModal();
+        }
+    }
+</script>
+
+
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <img class="header-image" src="new_K-C_logo_blue-removebg-preview.png" alt="Logo">
+            <h1 class="title">Quadro Interativo AC-22</h1>
+            <a class="header-menu-item" target="_blank" href="https://kimberlyclark.sharepoint.com/Sites/H945/">Portal de Melhoria Continua</a>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Pesquisar" class="search-input">
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="main-section">
+            <div class="column">
+                <a class="category">EHS</a>
+                <a target="_blank" href="https://kimberlyclark.sharepoint.com/Sites/H945/Suzano/Forms/AllItems.aspx?viewid=c20eff85%2Daf0a%2D4b76%2Dab1f%2D5816f085532c&id=%2FSites%2FH945%2FSuzano%2FSEGURAN%C3%87A%2FDialogo%20de%20Seguran%C3%A7a">
+                    <button class="button">DEHS</button>
+                </a>
+                <a target="_blank" href="https://kimberlyclark.sharepoint.com/sites/G394/SitePages/Gestao_AST.aspx?xsdata=MDV8MDJ8fGI3Mjg1ODAzZjljZTQ3YTc5YTk4MDhkY2QzZjBmOGMyfGZlZTIxODBiNjliNjRhZmU5ZjE0Y2NkNzBiZDRjNzM3fDB8MHw2Mzg2MTgyNzkwOTg4ODI3MTJ8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPamd3TWpRM01EQmtMVFl5TURjdE5HRTFOUzFoWXpJNExUazNNems1WmpNeU5EWTRNRjlrWVRVNU56VmhNeTA0TVdabExUUXdaV1V0WVdJeE1pMWlZVEF5WldNM01HRmhZV1JBZFc1eExtZGliQzV6Y0dGalpYTXZiV1Z6YzJGblpYTXZNVGN5TmpJek1URXdPVEF6TXc9PXxmZTFjYjc4NDg0MWU0NTdiM2EwMjA4ZGNkM2YwZjhjMHw0MTM5YzcwZjJhZGY0NzliODAzZmJlMGY4MDYzNWFjMQ%3D%3D&sdata=YWNyaG5WT3JtTElMSXFVMEd0L1MyOHFRU2xpTVhxeGpsVmkyaGpYUlpLTT0%3D&ovuser=fee2180b-69b6-4afe-9f14-ccd70bd4c737%2Cgustavo.manto%40kcc.com&OR=Teams-HL&CT=1727702418493&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDA4MTcwMDQyMSIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D">
+                    <button class="button">Gestão AST</button>
+                </a>
+                <a target="_blank" href="https://kimberlyclark.sharepoint.com/Sites/g956/optseguranca">
+                    <button class="button">Lançar OPT</button>
+                </a>
+                <a target="_blank" href="https://kimberlyclark.sharepoint.com/sites/G394/SitePages/Inspe%C3%A7%C3%B5es-de-Pr%C3%A9-uso.aspx">
+                    <button class="button">Lançar Pré-uso</button>
+                </a>
+                <a target="_blank" href="http://proact.kcc.com/Login.aspx?acc=kcc&auth=unpw">
+                    <button class="button">Lançar Safe</button>
+                </a>
+                <a href="#" onclick="openModal()">
+                    <button class="button">PRFA Operadores</button>
+                </a>                
+                <a target="_blank" href="https://kimberlyclark.sharepoint.com/Sites/g956/Lists/Reici/AllItems.aspx?ovuser=fee2180b%2D69b6%2D4afe%2D9f14%2Dccd70bd4c737%2Ckayke%2Ebittencourt%40kcc%2Ecom&OR=Teams%2DHL&CT=1727702394580&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNDA4MTcwMDQyMSIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D">
+                    <button class="button">REICI</button>
+                </a>
+                <a target="_blank" href="https://app.powerbi.com/groups/dcb8b308-ad58-48a7-aaa4-cba7d0a111fb/reports/62ccf77a-505c-4a05-9408-73fb9bbc9495/ReportSection009b13a603590a0d1293?ctid=fee2180b-69b6-4afe-9f14-ccd70bd4c737&experience=power-bi">
+                    <button class="button">Indicadores ambientais</button>
+                </a>
+                <a target="_blank" href="file://brszfn01/share/Suzano/Matriz%20de%20Qu%C3%ADmicos%20-%20Invent%C3%A1rio%20de%20FISPQ's/FORM-42164%20Invent%C3%A1rio%20de%20Qu%C3%ADmicos%20de%20Suzano.xlsx">
+                    <button class="button">Inventário de Químicos</button>
+                </a>
+            </div>
+            <div class="column">
+                <a class="category">QUALIDADE</a>
+                <a target="_blank" href="https://app.powerbi.com/groups/0055bf64-55e1-4c63-bc40-d734c7adcbbf/reports/c88550a3-4103-4833-9e7e-376ef5d1868f/ReportSection7c344e23d1210edc0156?experience=power-bi">
+                    <button class="button">CI TI/ RFT</button>
+                </a>
+                <a target="_blank" href="https://app.powerbi.com/groups/cfca818e-1113-48e2-bbd6-c682dd473fb8/reports/a8a14356-b6ea-4dac-b6cd-77ba34277171/ReportSection21f352bc2dba2883e2ea">
+                    <button class="button">Consulta Ações SisAcr</button>
+                </a>
+                <a target="_blank" href="https://www.etq.kcc.com:443/RelianceProd/reliance?ETQ$CMD=CMD_OPEN_ATTACHMENT_LAST_REV&ETQ$FILE_NAME=JA-20312+BOOK+ETIQUETAS.pdf&ETQ$APPLICATION_ID=7&ETQ$FORM_ID=37&ETQ$KEY_VALUE=762848&ETQ$SOURCE_FIELD_ID=22423&ETQ$ORIGINAL_DOC_ID=518577">
+                    <button class="button">Etiquetas de Fornecedores</button>
+                </a>
+                <a target="_blank" href="http://www.etq.kcc.com/RelianceProd/reliance?ETQ$CMD=CMD_OPEN_DOC&ETQ$APPLICATION_NAME=DOCWORK&ETQ$FORM_NAME=DOCWORK_DOCUMENT&ETQ$KEY_NAME=DOCWORK_ID&ETQ$KEY_VALUE=1115184&ETQ$SCREEN_WIDTH=1280">
+                    <button class="button">Manual de Inspeção</button>
+                </a>
+                <a target="_blank" href="http://www.etq.kcc.com/RelianceProd/reliance?ETQ$CMD=CMD_OPEN_DOC&ETQ$APPLICATION_NAME=DOCWORK&ETQ$FORM_NAME=DOCWORK_DOCUMENT&ETQ$KEY_NAME=DOCWORK_ID&ETQ$KEY_VALUE=592489&ETQ$SCREEN_WIDTH=1536&ETQ$OTHER_APPLICATION_NAME=DOCWORK&ETQ$OTHER_FORM_NAME=DOCWORK_DOCUMENT&ETQ$OTHER_KEY_NAME=DOCWORK_ID&ETQ$OTHER_KEY_VALUE=562685&ETQ$SCREEN_WIDTH=1218">
+                    <button class="button">Manual de Reprocesso</button>
+                </a>
+                <a target="_blank" href="http://www.etq.kcc.com/RelianceProd/reliance?ETQ$CMD=CMD_OPEN_DOC&ETQ$APPLICATION_NAME=DOCWORK&ETQ$FORM_NAME=DOCWORK_DOCUMENT&ETQ$KEY_NAME=DOCWORK_ID&ETQ$KEY_VALUE=752276&ETQ$SCREEN_WIDTH=1280&ETQ$OTHER_APPLICATION_NAME=DOCWORK&ETQ$OTHER_FORM_NAME=DOCWORK_DOCUMENT&ETQ$OTHER_KEY_NAME=DOCWORK_ID&ETQ$OTHER_KEY_VALUE=670824&ETQ$SCREEN_WIDTH=1920">
+                    <button class="button">Procedimento de Limpeza</button>
+                </a>
+                <a target="_blank" href="http://www.etq.kcc.com/RelianceProd/reliance?ETQ$CMD=CMD_OPEN_DOC&ETQ$APPLICATION_NAME=DOCWORK&ETQ$FORM_NAME=DOCWORK_DOCUMENT&ETQ$KEY_NAME=DOCWORK_ID&ETQ$KEY_VALUE=1115184&ETQ$SCREEN_WIDTH=1280">
+                    <button class="button">Procedimento Rastreabilidade</button>
+                </a>
+                <a target="_blank" href="https://app.powerbi.com/groups/0055bf64-55e1-4c63-bc40-d734c7adcbbf/reports/5b24619b-f0a9-4c4a-aba4-a7b5ea965b5c/ReportSection?experience=power-bi">
+                    <button class="button">Retidos & Rejeitados</button>
+                </a>
+                <a target="_blank" href="https://app.powerbi.com/groups/0055bf64-55e1-4c63-bc40-d734c7adcbbf/reports/9c37360c-2552-40ab-b7b3-9cbb93b08cb5/ReportSection329259d58d0bf1fc4185?experience=power-bi">
+                    <button class="button">SAC</button>
+                </a>
+                </div>
+            
+            <div class="column">
+                <a class="category">PRODUTIVIDADE</a>
+                <a target="_blank" href="https://brsza022/PIVision/#/Displays/633/AUTONOMOS-CARE-CART%25C3%2595ES">
+                    <button class="button">Cartão Autonomous</button>
+                </a>
+                <a target="_blank" href="https://brsza022/PIVision/#/Displays/632/INSTRU%C3%87%C3%83O-TRABALHO-PADS-E-LINER">
+                    <button class="button">Instrução de Trabalho</button>
+                </a>
+                <a target="_blank" href="https://kimberlyclark.sharepoint.com/:x:/r/Sites/H945/_layouts/15/Doc.aspx?sourcedoc=%7B90344E91-F85B-478E-AD5F-D7A99B7B71C7%7D&file=KPI%27s.xlsx&action=default&mobileredirect=true">
+                    <button class="button">Kpi de Máquina</button>
+                </a>
+                <a target="_blank" href="https://kimberlyclark.sharepoint.com/Sites/H945/Lists/Reunio%20Diria%20%20FC/AllItems.aspx?origin=createList&OR=Teams%2DHL&CT=1648774240612&params=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMjAzMDcwMTYxMCJ9">
+                    <button class="button">Lançar Plano de Ação</button>
+                </a>
+                <a href="https://kimberlyclark.sharepoint.com/sites/C83/Planos%20de%20Produo/Forms/AllItems.aspx?InitialTabId=Ribbon%2ERead&VisibilityContext=WSSTabPersistence">
+                    <button class="button">Plano de Produção</button>
+                </a>
+                <a target="_blank" href="https://www.etq.kcc.com:443/RelianceProd/reliance?ETQ$CMD=CMD_OPEN_ATTACHMENT_LAST_REV&ETQ$FILE_NAME=PC_BR_SZ_FC_AC-22.pdf&ETQ$APPLICATION_ID=7&ETQ$FORM_ID=37&ETQ$KEY_VALUE=1120375&ETQ$SOURCE_FIELD_ID=22423&ETQ$ORIGINAL_DOC_ID=506844">
+                    <button class="button">Plano de Controle</button>
+                </a>
+                <a target="_blank" href="https://kimberlyclark.sharepoint.com/Sites/H945/Lists/Quadro%20de%20Desempenho%20AC22/AllItems.aspx">
+                    <button class="button">Quadro de Desempenho</button>
+                </a>
+                <a target="_blank" href="https://brsza022/PIVision/#/Displays/11560/Agenda-troca-de-turno-AC22">
+                    <button class="button">Troca de Turno</button>
+                </a>
+                <a target="_blank" href="https://www.etq.kcc.com:443/RelianceProd/reliance?ETQ$CMD=CMD_OPEN_ATTACHMENT_LAST_REV&ETQ$FILE_NAME=Matriz+de+Troca+de+Fase+AC-22.pdf&ETQ$APPLICATION_ID=7&ETQ$FORM_ID=37&ETQ$KEY_VALUE=827033&ETQ$SOURCE_FIELD_ID=22423&ETQ$ORIGINAL_DOC_ID=827033">
+                    <button class="button">Troca de Fase</button>
+                </a>
+            </div>
+            <div class="column">
+                <a class="category">PESSOAS</a>
+                <a target="_blank" href="https://brsza022/PIVision/#/Displays/11594/PRODUCTION-AFC">
+                    <button class="button">Acessar PI Vision</button>
+                </a>
+                <a target="_balnk" href="https://brsza022/PIVision/#/Displays/11595/GSP-ABS---CCS">
+                    <button class="button">GSP</button>
+                </a>
+                <a target="_blank" href="https://kimberlyclark.sharepoint.com/:x:/r/Sites/H945/_layouts/15/Doc.aspx?sourcedoc=%7B55B4F8FC-2491-4901-8B73-1864FE4373F3%7D&file=ESCALA%202021.xlsx&action=default&mobileredirect=true">
+                    <button class="button">Escala de Folga</button>
+                </a>
+                <a target="_blank" href="https://apps.powerapps.com/play/e/default-fee2180b-69b6-4afe-9f14-ccd70bd4c737/a/5498a537-9523-4485-8c12-e4b41fe9e227?tenantId=fee2180b-69b6-4afe-9f14-ccd70bd4c737&source=portal#">
+                    <button class="button">LSW</button>
+                </a>
+                <a target="_blank" href="http://www.etq.kcc.com:80/RelianceProd/reliance?ETQ$CMD=CMD_OPEN_LATEST_REVISION_DOC&ETQ$APPLICATION_NAME=DOCWORK&ETQ$FORM_NAME=DOCWORK_DOCUMENT&ETQ$KEY_NAME=DOCWORK_ID&ETQ$KEY_VALUE=660909&ETQ$ORIGINAL_DOC_ID=660149">
+                    <button class="button">Matriz Responsabi</button>
+                </a>
+                <a target="_blank" href="https://reports.kcc.com/reports/report/SMOM/Prod/Reports/BRSZ/Production%20Tracking/Shift%20Operation%20Summary%20Report">
+                    <button class="button">MES</button>
+                </a>
+                <a target="_blank" href="https://kimberlyclark.sharepoint.com/Sites/H945/Lists/Suzano%20%20Estrelas%20do%20Ms/AllItems.aspx">
+                    <button class="button">Reconhecer um Colega</button>
+                </a>
+                <a target="_blank" href="https://app.powerbi.com/groups/4a60522e-df17-40c3-afca-f699785afb5d/reports/fe555b92-4421-4a0d-9428-de4530812f7f/ReportSectionb11196832b5090b2e659">
+                    <button class="button">Treinamentos Planejados</button>
+                </a>
+            </div>
+            <div class="column">
+                <a class="category">CUSTOS</a>
+                <a target="_blank" href="">
+                    <button class="button">Consumo de MP</button>
+                </a>
+                <a target="_blank" href="https://app.powerbi.com/reportEmbed?reportId=d9f2e11f-9b01-4a2d-b234-4d6d5b1d86a7&autoAuth=true&ctid=fee2180b-69b6-4afe-9f14-ccd70bd4c737">
+                    <button class="button">Custo de Manutenção</button>
+                </a>
+                <a target="_blank" href="">
+                    <button class="button">Custo Prod x Consumo</button>
+                </a>
+                <a target="_blank" href="">
+                    <button class="button">Custo Waste</button>
+                </a>
+                <a target="_blank" href="">
+                    <button class="button">Other Waste</button>
+                </a>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <img class="footer-image" src="ser_kc_logo-removebg.png" alt="Rodapé">
+    </footer>
+
+    <script>
+        function removeSpecialChars(str) {
+            return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\w\s]/gi, '').toUpperCase();
+        }
+
+        function searchFunction() {
+            var input, filter, buttons, text;
+            input = document.getElementById('searchInput');
+            filter = removeSpecialChars(input.value.trim());
+            buttons = document.getElementsByClassName('button');
+
+            for (var i = 0; i < buttons.length; i++) {
+                text = removeSpecialChars(buttons[i].textContent || buttons[i].innerText);
+                if (text.indexOf(filter) > -1) {
+                    buttons[i].style.display = "block";
+                } else {
+                    buttons[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
